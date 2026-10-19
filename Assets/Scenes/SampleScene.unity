@@ -1478,7 +1478,7 @@ GameObject:
   - component: {fileID: 1311280969}
   - component: {fileID: 1311280968}
   - component: {fileID: 1311280967}
-  - component: {fileID: 1311280966}
+  - component: {fileID: 1311280971}
   m_Layer: 0
   m_Name: NetworkSystem
   m_TagString: Untagged
@@ -1486,18 +1486,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1311280966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311280965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e42dced4086ecbd4eba71e9abf72e9e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!114 &1311280967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1555,6 +1543,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1311280971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311280965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42dced4086ecbd4eba71e9abf72e9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShootSpawner
+  playerPrefab: {fileID: 1466705339170916913, guid: 22717ff61f3132840ae49cd2bdceeef0, type: 3}
+  matchPrefab: {fileID: 0}
 --- !u!1 &1439092197
 GameObject:
   m_ObjectHideFlags: 0
